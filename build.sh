@@ -67,11 +67,11 @@ fetch_seapath_artifacts() {
 
     debian_images=(
         "seapath-v${SEAPATH_IMAGES_VERSION}-generic-standalone.rootfs.raw.gz"
-        "seapath-v${SEAPATH_IMAGES_VERSION}-generic-standalone.rootfs.bmap"
+        "seapath-v${SEAPATH_IMAGES_VERSION}-generic-standalone.rootfs.raw.bmap"
         "seapath-v${SEAPATH_IMAGES_VERSION}-generic-cluster.rootfs.raw.gz"
-        "seapath-v${SEAPATH_IMAGES_VERSION}-generic-cluster.rootfs.bmap"
+        "seapath-v${SEAPATH_IMAGES_VERSION}-generic-cluster.rootfs.raw.bmap"
         "seapath-v${SEAPATH_IMAGES_VERSION}-generic-observer.rootfs.raw.gz"
-        "seapath-v${SEAPATH_IMAGES_VERSION}-generic-observer.rootfs.bmap"
+        "seapath-v${SEAPATH_IMAGES_VERSION}-generic-observer.rootfs.raw.bmap"
     )
 
     keys=(
